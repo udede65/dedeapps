@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DedeApps | AI-Powered Mobile Apps & SaaS Tools</title>
+    <meta name="description" content="DedeApps - We build premium, offline-first mobile applications and AI-powered SaaS tools to elevate your lifestyle and business productivity.">
+    <meta name="author" content="DedeApps">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://udede65.github.io/">
+    <meta property="og:title" content="DedeApps | AI-Powered Mobile Apps & SaaS Tools">
+    <meta property="og:description" content="We build premium, offline-first mobile applications and AI-powered SaaS tools. Discover BoutiFlow, MigraFocus, Nur AI, and Passio.">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" content="DedeApps | AI-Powered Mobile Apps & SaaS Tools">
+    <meta property="twitter:description" content="We build premium, offline-first mobile applications and AI-powered SaaS tools. Discover BoutiFlow, MigraFocus, Nur AI, and Passio.">
+
+    <!-- Fonts & Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Aurora Background Glows -->
+    <div class="bg-glow">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+                <img src="images/dedeapps-logo.png" alt="DedeApps Logo" class="logo-symbol">
+                <span class="logo-text">Dede<span>Apps</span></span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#apps" class="nav-link" data-i18n="navApps">Apps</a>
+                <a href="#philosophy" class="nav-link" data-i18n="navPhilosophy">Philosophy</a>
+                <a href="#contact" class="nav-link" data-i18n="navContact">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+                <button class="lang-btn" id="langToggle" aria-label="Switch Language">
+                    <span class="lang-icon"><i class="fa-solid fa-globe"></i></span>
+                    <span class="lang-text">EN</span>
+                </button>
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="badge-container">
+                    <span class="hero-badge">
+                        <span class="pulse-dot"></span>
+                        <span data-i18n="heroBadge">Next-Gen SaaS & Mobile Studio</span>
+                    </span>
+                </div>
+                
+                <h1 class="hero-title">
+                    <span class="gradient-text-1">DedeApps</span><br>
+                    <span class="gradient-text-2" data-i18n="heroSubtitle">AI-powered mobile apps and SaaS tools</span>
+                </h1>
+                
+                <p class="hero-description" data-i18n="heroDescription">
+                    We craft premium, user-centric, and offline-first software solutions driven by modern artificial intelligence. Elevate your business, health, spiritual journey, and daily routines with our crafted experience suite.
+                </p>
+                
+                <div class="hero-actions-btns">
+                    <a href="#apps" class="btn btn-primary" data-i18n="btnExplore">Explore Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary" data-i18n="btnContact">Get In Touch</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="floating-cards-container">
+                    <div class="float-card card-1">
+                        <img src="images/boutiflow-icon.png" alt="BoutiFlow Logo" class="card-icon">
+                        <div class="card-info">
+                            <h4>BoutiFlow</h4>
+                            <span data-i18n="tagOfflinePMS">Offline-First PMS</span>
+                        </div>
+                    </div>
+                    <div class="float-card card-2">
+                        <img src="images/migrafocus-icon.png" alt="MigraFocus Logo" class="card-icon">
+                        <div class="card-info">
+                            <h4>MigraFocus</h4>
+                            <span data-i18n="tagAIHealth">AI Migraine Assistant</span>
+                        </div>
+                    </div>
+                    <div class="float-card card-3">
+                        <img src="images/nurai-icon.png" alt="Nur AI Logo" class="card-icon">
+                        <div class="card-info">
+                            <h4>Nur AI</h4>
+                            <span data-i18n="tagIslamicGuide">Islamic Life Guide</span>
+                        </div>
+                    </div>
+                    <div class="float-card card-4">
+                        <img src="images/passio-icon.png" alt="Passio Logo" class="card-icon">
+                        <div class="card-info">
+                            <h4>Passio</h4>
+                            <span data-i18n="tagAISalon">AI Salon Management</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Apps Section -->
+    <section class="section apps-section" id="apps">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="portfolioTitle">Our Applications</h2>
+                <p class="section-subtitle" data-i18n="portfolioSubtitle">Explore our high-performance mobile apps and SaaS solutions designed for seamless user experiences.</p>
+            </div>
+            
+            <div class="apps-grid">
+                
+                <!-- App 1: BoutiFlow -->
+                <div class="app-card" data-reveal>
+                    <div class="app-card-header">
+                        <img src="images/boutiflow-icon.png" alt="BoutiFlow Icon" class="app-icon-wrapper">
+                        <div class="app-meta">
+                            <span class="app-tag" data-i18n="categoryHospitality">Hospitality SaaS</span>
+                            <h3 class="app-title">BoutiFlow</h3>
+                        </div>
+                    </div>
+                    <p class="app-desc" data-i18n="boutiflowDesc">
+                        Professional, offline-first property management system (PMS) designed for boutique hotels, guesthouses, and vacation rentals. Access calendars, guest CRM, and templates completely offline.
+                    </p>
+                    <div class="app-features">
+                        <span class="feat-badge"><i class="fa-solid fa-wifi-slash"></i> <span data-i18n="featOfflineFirst">Offline-First</span></span>
+                        <span class="feat-badge"><i class="fa-solid fa-calendar-days"></i> <span data-i18n="featVisualBooking">Visual Calendar</span></span>
+                        <span class="feat-badge"><i class="fa-brands fa-whatsapp"></i> <span data-i18n="featWhatsApp">WhatsApp i18n</span></span>
+                    </div>
+                    <div class="app-footer">
+                        <div class="app-platforms">
+                            <i class="fa-brands fa-apple" title="iOS Support"></i>
+                            <i class="fa-brands fa-android" title="Android Support"></i>
+                        </div>
+                        <a href="https://udede65.github.io/boutiflow" target="_blank" class="app-link" aria-label="Visit BoutiFlow Website">
+                            <span data-i18n="visitSite">Visit Website</span> <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 2: MigraFocus -->
+                <div class="app-card" data-reveal>
+                    <div class="app-card-header">
+                        <img src="images/migrafocus-icon.png" alt="MigraFocus Icon" class="app-icon-wrapper">
+                        <div class="app-meta">
+                            <span class="app-tag" data-i18n="categoryHealth">AI Health</span>
+                            <h3 class="app-title">MigraFocus</h3>
+                        </div>
+                    </div>
+                    <p class="app-desc" data-i18n="migrafocusDesc">
+                        AI-powered health assistant designed to monitor sleep patterns, heart rates, and physical activity to predict migraine risk thresholds and deliver personalized wellness recommendations.
+                    </p>
+                    <div class="app-features">
+                        <span class="feat-badge"><i class="fa-solid fa-microchip"></i> <span data-i18n="featAIPrediction">AI Risk prediction</span></span>
+                        <span class="feat-badge"><i class="fa-solid fa-clock"></i> <span data-i18n="featAppleWatch">Apple Watch Sync</span></span>
+                        <span class="feat-badge"><i class="fa-solid fa-file-pdf"></i> <span data-i18n="featPDFReports">PDF Reports</span></span>
+                    </div>
+                    <div class="app-footer">
+                        <div class="app-platforms">
+                            <i class="fa-brands fa-apple" title="iOS Support"></i>
+                            <i class="fa-brands fa-android" title="Android Support"></i>
+                        </div>
+                        <a href="https://udede65.github.io/migrafocus-website/" target="_blank" class="app-link" aria-label="Visit MigraFocus Website">
+                            <span data-i18n="visitSite">Visit Website</span> <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 3: Nur AI -->
+                <div class="app-card" data-reveal>
+                    <div class="app-card-header">
+                        <img src="images/nurai-icon.png" alt="Nur AI Icon" class="app-icon-wrapper">
+                        <div class="app-meta">
+                            <span class="app-tag" data-i18n="categoryLifestyle">Islamic Lifestyle</span>
+                            <h3 class="app-title">Nur AI</h3>
+                        </div>
+                    </div>
+                    <p class="app-desc" data-i18n="nuraiDesc">
+                        An elegant, AI-supported companion for your Islamic daily routines. Provides real-time prayer calculations, a fully localized Quran, Islamic prayers, and glassmorphic starry widgets.
+                    </p>
+                    <div class="app-features">
+                        <span class="feat-badge"><i class="fa-solid fa-mosque"></i> <span data-i18n="featPrayerTimes">Prayer Times</span></span>
+                        <span class="feat-badge"><i class="fa-solid fa-book-quran"></i> <span data-i18n="featQuran">Quran Reader</span></span>
+                        <span class="feat-badge"><i class="fa-solid fa-wand-magic-sparkles"></i> <span data-i18n="featAICompanion">AI Companion</span></span>
+                    </div>
+                    <div class="app-footer">
+                        <div class="app-platforms">
+                            <i class="fa-brands fa-apple" title="iOS Support"></i>
+                            <i class="fa-brands fa-android" title="Android Support"></i>
+                        </div>
+                        <a href="https://udede65.github.io/nuraiapp/" target="_blank" class="app-link" aria-label="Visit Nur AI Website">
+                            <span data-i18n="visitSite">Visit Website</span> <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- App 4: Passio -->
+                <div class="app-card" data-reveal>
+                    <div class="app-card-header">
+                        <img src="images/passio-icon.png" alt="Passio Icon" class="app-icon-wrapper">
+                        <div class="app-meta">
+                            <span class="app-tag" data-i18n="categoryBeauty">AI Beauty SaaS</span>
+                            <h3 class="app-title">Passio</h3>
+                        </div>
+                    </div>
+                    <p class="app-desc" data-i18n="passioDesc">
+                        High-end salon management software with built-in AI beauty consulting. Features a luxury appointment timeline calendar, offline CRM databases, and smart sales reports for beauty experts.
+                    </p>
+                    <div class="app-features">
+                        <span class="feat-badge"><i class="fa-solid fa-calendar-check"></i> <span data-i18n="featSmartBooking">Smart Booking</span></span>
+                        <span class="feat-badge"><i class="fa-solid fa-wifi-slash"></i> <span data-i18n="featOfflineCRM">Offline CRM</span></span>
+                        <span class="feat-badge"><i class="fa-solid fa-chart-pie"></i> <span data-i18n="featAnalytics">Sales Analytics</span></span>
+                    </div>
+                    <div class="app-footer">
+                        <div class="app-platforms">
+                            <i class="fa-brands fa-apple" title="iOS Support"></i>
+                            <i class="fa-brands fa-android" title="Android Support"></i>
+                        </div>
+                        <a href="https://udede65.github.io/passio-web/index.html" target="_blank" class="app-link" aria-label="Visit Passio Website">
+                            <span data-i18n="visitSite">Visit Website</span> <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Philosophy Section -->
+    <section class="section philosophy-section" id="philosophy">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title" data-i18n="philoTitle">Our Core Philosophy</h2>
+                <p class="section-subtitle" data-i18n="philoSubtitle">How we approach design, development, and user security to construct memorable experiences.</p>
+            </div>
+            
+            <div class="philosophy-grid">
+                
+                <div class="philo-card" data-reveal>
+                    <div class="philo-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                    <h3 data-i18n="p1Title">Offline-First Privacy</h3>
+                    <p data-i18n="p1Desc">Your data belongs to you. We write applications where critical logic runs client-side directly on your hardware, guaranteeing speed and data sovereignty without needing connection.</p>
+                </div>
+                
+                <div class="philo-card" data-reveal>
+                    <div class="philo-icon"><i class="fa-solid fa-robot"></i></div>
+                    <h3 data-i18n="p2Title">Applied Intelligence</h3>
+                    <p data-i18n="p2Desc">We integrate AI not as a gimmick, but as a practical assistant. From predicting health trends to auto-generating localized guest templates, we maximize daily productivity.</p>
+                </div>
+
+                <div class="philo-card" data-reveal>
+                    <div class="philo-icon"><i class="fa-solid fa-wand-magic"></i></div>
+                    <h3 data-i18n="p3Title">Luxury Craftsmanship</h3>
+                    <p data-i18n="p3Desc">We believe software should feel premium. Every alignment, transition, typography scale, and glassmorphic surface is tuned to present a sleek, satisfying environment.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="contact-box" data-reveal>
+                <h2 data-i18n="contactTitle">Let's Create Together</h2>
+                <p data-i18n="contactSubtitle">Interested in our services, custom AI integrations, or custom SaaS development? Reach out and we'll reply shortly.</p>
+                
+                <a href="mailto:info@dedeapps.com" class="btn btn-primary btn-large">
+                    <i class="fa-solid fa-paper-plane" style="margin-right: 8px;"></i>
+                    <span data-i18n="contactBtn">Send us an Email</span>
+                </a>
+                
+                <div class="contact-links">
+                    <a href="https://github.com/udede65" target="_blank" aria-label="GitHub Profile"><i class="fa-brands fa-github"></i> GitHub</a>
+                    <a href="#" aria-label="App Store Profile"><i class="fa-brands fa-apple"></i> Developer Page</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-brand">
+                <img src="images/dedeapps-logo.png" alt="DedeApps Logo" class="logo-symbol">
+                <span>DedeApps</span>
+            </div>
+            <p class="copyright">&copy; <span id="currentYear">2026</span> DedeApps. <span data-i18n="footerRights">All rights reserved.</span></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
