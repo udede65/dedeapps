@@ -47,7 +47,8 @@ const translations = {
         contactTitle: "Let's Create Together",
         contactSubtitle: "Interested in our services, custom AI integrations, or custom SaaS development? Reach out and we'll reply shortly.",
         contactBtn: "Send us an Email",
-        footerRights: "All rights reserved."
+        footerRights: "All rights reserved.",
+        comingSoonAppStore: "Coming Soon on App Store"
     },
     tr: {
         navApps: "Uygulamalar",
@@ -96,7 +97,8 @@ const translations = {
         contactTitle: "Birlikte Üretelim",
         contactSubtitle: "Hizmetlerimizle, özel yapay zeka entegrasyonlarımızla veya SaaS geliştirme çözümlerimizle ilgileniyor musunuz? Bize ulaşın, en kısa sürede dönüş yapalım.",
         contactBtn: "E-posta Gönderin",
-        footerRights: "Tüm hakları saklıdır."
+        footerRights: "Tüm hakları saklıdır.",
+        comingSoonAppStore: "Yakında App Store'da"
     }
 };
 

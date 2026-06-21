@@ -943,3 +943,34 @@ footer {
         font-size: 2rem;
     }
 }
+
+/* App Platforms Styling */
+.platform-badge-coming {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--text-muted);
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(255, 255, 255, 0.06);
+    padding: 4px 10px;
+    border-radius: 20px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.platform-badge-coming i {
+    font-size: 0.85rem;
+    color: var(--color-rose);
+}
+
+.platform-link {
+    color: var(--text-muted);
+    transition: var(--transition-smooth);
+    display: inline-flex;
+    align-items: center;
+}
+
+.platform-link:hover {
+    color: var(--text-primary);
+    transform: translateY(-1px);
+}
